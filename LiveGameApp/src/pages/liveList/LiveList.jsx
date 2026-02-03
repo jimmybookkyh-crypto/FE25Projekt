@@ -31,14 +31,9 @@ function LiveList(){
               <p className="livetitle">{game.title}</p>
             </a>
             <a href={game.game_url} target="_blank" rel="noopener noreferrer">
-              <img
-                src={game.thumbnail}
-                alt={game.title}
-                className="livethumb"
-              />
+              <img src={game.thumbnail} alt={game.title} className="livethumb" />
             </a>
-            <p>{game.developer}<br/>Released {game.release_date}<br/><b>{game.genre}</b></p>
-            
+            <p>{game.developer}<br/>Released {game.release_date}<br/><b>{game.genre}</b></p>            
           </div>
         ))}
       </div>

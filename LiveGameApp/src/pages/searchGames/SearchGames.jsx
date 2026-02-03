@@ -28,10 +28,7 @@ function SearchGames(){
 
     return (
     <ContentBox title="Search Games">
-      <SearchField
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-      />
+      <SearchField searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       {loading && <p>Loading game search...</p>}
       {error && <p>Error while fetching API: {error}</p>}
 
@@ -42,11 +39,7 @@ function SearchGames(){
               <p className="searchtitle">{game.title}</p>
             </a>
             <a href={game.game_url} target="_blank" rel="noopener noreferrer">
-              <img
-                src={game.thumbnail}
-                alt={game.title}
-                className="searchthumb"
-              />
+              <img src={game.thumbnail} alt={game.title} className="searchthumb" />
             </a>
             <p><b>{game.genre}</b></p>
           </div>

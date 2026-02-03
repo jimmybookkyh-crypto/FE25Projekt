@@ -3,7 +3,6 @@ import Navigation from '../components/navigation/Navigation.jsx';
 import Header from '../components/Header.jsx';
 import Footer from '../components/Footer.jsx';
 
-
 function MainLayout() {
   return (
     <>

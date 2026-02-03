@@ -4,8 +4,7 @@ function Home(){
     return (
         <section className="home">        
             <Outlet />        
-        </section>
-        
+        </section>        
     )
 }
 
