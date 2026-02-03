@@ -5,11 +5,11 @@ function SearchField({ searchTerm, setSearchTerm }) {
   };
 
   return (
-    <div className="searchfield">
+    <div className="searchfield" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
       <input
         type="text"
         style={{ width: '400px', padding: '0.5rem', fontSize: '0.8rem' }}
-        placeholder="Search by genre (e.g. strategy)"
+        placeholder="Search by genre (e.g. card, fighting, sports)"
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
       />
