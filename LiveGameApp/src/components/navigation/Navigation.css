@@ -1,0 +1,11 @@
+nav a {
+  text-decoration: none;
+  color: #dddddd;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+nav a.active {
+  color: rgb(177, 43, 72);
+  font-weight: bold;
+}

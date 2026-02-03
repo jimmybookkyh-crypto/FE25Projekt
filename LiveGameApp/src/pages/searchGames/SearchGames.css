@@ -1,0 +1,38 @@
+
+.searchgamedisplay {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.searchgameitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.searchthumb {
+  width: 75px; 
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.searchthumb:hover {
+  transform: scale(1.1);
+}
+
+.searchtitle {
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  transition: color 0.2s;
+}
+
+.searchtitle:hover {
+  color: #007bff;
+}

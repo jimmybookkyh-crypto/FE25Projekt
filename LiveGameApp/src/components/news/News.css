@@ -1,0 +1,31 @@
+
+.newstitle {
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #d6d6d6;
+  text-align: center;
+  transition: color 0.2s;
+  text-decoration: underline;
+}
+.newstitle:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+.newsthumb:hover {
+  transform: translateY(-2px);
+}
+ul {
+  list-style: none;
+  padding: 0;   
+  margin: 0;
+}
+
+.newsitem {
+  margin-bottom: 0.1rem;
+  border-radius: 6px;
+  padding: 0.8rem;    
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.4);
+}
