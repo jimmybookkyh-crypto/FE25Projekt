@@ -37,7 +37,7 @@ function LiveList(){
                 className="livethumb"
               />
             </a>
-            <p>{game.developer}<br/>{game.release_date}<br/><b>{game.genre}</b></p>
+            <p>{game.developer}<br/>Released {game.release_date}<br/><b>{game.genre}</b></p>
             
           </div>
         ))}

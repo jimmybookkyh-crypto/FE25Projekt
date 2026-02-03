@@ -6,8 +6,7 @@ import SearchField from '../../components/SearchField.jsx';
 
 function SearchGames(){
     const [SearchGame, setSearchGame] = useState([]);
-    const [searchTerm, setSearchTerm] = useState(() => {
-    return localStorage.getItem("searchTerm") || "";});
+    const [searchTerm, setSearchTerm] = useState(() => { return localStorage.getItem("searchTerm") || "";});
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -25,11 +24,7 @@ function SearchGames(){
       
   }, []);    
     useEffect(() => {localStorage.setItem("searchTerm", searchTerm);}, [searchTerm]);
-    const filteredGames = SearchGame.filter((game) =>
-      game.genre
-        .toLowerCase()
-        .includes(searchTerm.toLowerCase())
-    );
+    const filteredGames = SearchGame.filter((game) =>game.genre .toLowerCase() .includes(searchTerm.toLowerCase()));
 
     return (
     <ContentBox title="Search Games">
