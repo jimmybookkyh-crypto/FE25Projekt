@@ -1,5 +1,9 @@
 # Live Gaming App
 
+## About the app:
+
+A simple lightweight SPA to help keep track of news and releases for Live Games of all platforms and genres, including a feature to search specific games.
+The app pulls information from the API from https://www.mmobomb.com/api .
 
 ## Installation:
 1. Clone Repositary<br>
