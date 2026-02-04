@@ -21,7 +21,7 @@ To run the app start devolopment server by typing: npm run dev
 Access the application by copying the localhost url http://localhost:5173/search into browser or ctrl+click on the address in the terminal.
 
 ## Requirements fullfilled
-1. G<br>
+1. <br>
 * Create Singel Page Application with a clear theme - [x]<br>
 2. A<br>
 * React SPA with client-side routing (React Router)- [x]
@@ -40,13 +40,13 @@ Access the application by copying the localhost url http://localhost:5173/search
 * README includes short description of the app - [x]
 * README includes how to start the project - [x]
 * README includes what requirements have been met(checklist in bullet form) - [x]<br>
-3. VG<br>
- 1. 
- * Clear and organized file structure - [x]
- * "Technical choices - reflection" section in the README with at least 150 words - [x]
- 2. 
- * An extra route ("About" page) - [x]
- * Extra UI functionality (pagination used on Home page) - [x]
+3. <br>
+    1. 
+    * Clear and organized file structure - [x]
+    * "Technical choices - reflection" section in the README with at least 150 words - [x]
+    2. 
+    * An extra route ("About" page) - [x]
+    * Extra UI functionality (pagination used on Home page) - [x]
 
 ## Technical choices - reflection
 
