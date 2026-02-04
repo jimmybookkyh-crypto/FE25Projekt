@@ -41,12 +41,12 @@ Access the application by copying the localhost url http://localhost:5173/search
 * README includes how to start the project - [x]
 * README includes what requirements have been met(checklist in bullet form) - [x]<br>
 3. <br>
-    1. 
-    * Clear and organized file structure - [x]
-    * "Technical choices - reflection" section in the README with at least 150 words - [x]
-    2. 
-    * An extra route ("About" page) - [x]
-    * Extra UI functionality (pagination used on Home page) - [x]
+3. 1 
+* Clear and organized file structure - [x]
+* "Technical choices - reflection" section in the README with at least 150 words - [x]
+3. 2
+* An extra route ("About" page) - [x]
+* Extra UI functionality (pagination used on Home page) - [x]
 
 ## Technical choices - reflection
 
