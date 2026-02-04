@@ -33,8 +33,21 @@ There is also a fallback route to handle undefined paths to improve the user exp
 
 3. Component division<br>
 The application is divided into smaller reusable components to improve readability, maintainability, and reusability.<br>
-I've tried to break out as much as I could from individual the jsx files and then divided up components after their usage, aiming to keep each part small and make it easy to see which responsibility each component has.<br>
+I've tried to break out as much as I could from individual the jsx files and then divided up components after their usage, aiming to keep each part small and make it easy to see which responsibility each component has.
 
 4. Props-solution<br>
-My main usage of a props solution is with the Contentbox component which uses both 'title' and 'children'props in order to make it more flexible as a resuable function.<br>
-The 'title' prop allows the component to optionally display a heading only when needed, while the 'children' prop prop lets any content be pulled into the box for rendering which keeps the component reusable and generic.<br>
+For an example of my usage of a props solution is with the Contentbox component which uses both 'title' and 'children'props in order to make it more flexible as a resuable function.<br>
+The 'title' prop allows the component to optionally display a heading only when needed, while the 'children' prop prop lets any content be pulled into the box for rendering which keeps the component reusable and generic with less hardcoded texts needing to be written.
+
+5. State-solution<br>
+The SearchGames component uses multiple useState hooks manage different pieces of dynamic data independently.
+An example of a state solution I've made use of for this is with the search functionality where the , the 'searchGame' state stores the list of games fetched from the API to render the list of games once data is loaded and keeps the raw data separate from filtered results.<br>
+Meanwhile the 'searchTerm' state stores the current input value, allowing the component to react immediately to user input and update the displayed filtered version of the gmaes list
+
+6. Choice of API<br>
+I chose my API from https://www.mmobomb.com/api based on several reasons;<br>
+The API fits the theme I wanted to work with, building an application themed around gaming.<br>
+It is accessable and doesn't require any registration or API keys and doesn't have any restrictions on usage.<br>
+The API has several endpoints with different data in them making such as list of games and latestnews that are easy to use for various app functions, for example using an API that regulary fills with new data is more intressting to work with.<br>
+It seems to be a maintained API that gets updated thus it feels more reliable to use for project.<br>
+While the documentation for it is a bit lacking, it is simple set up enough with clearly defined endpoints and logical keys to which makes it easy to use and work with.
