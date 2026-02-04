@@ -2,16 +2,17 @@
 
 ## About the app:
 
-A simple lightweight SPA to help keep track of news and releases for Live Games of all platforms and genres, including a feature to search specific games.<br>
-The app pulls information from the API from https://www.mmobomb.com/api .
+A simple lightweight SPA to help users keep track of news and releases for Live Games of all platforms and genres, including a feature to browse games by category.<br>
+The application pulls information from the API at https://www.mmobomb.com/api as source of the data used for it's features.
 
 ## Installation:
+
 1. Clone Repositary<br>
 Clone the repository found under the green Code button.<br>
 In VSCode gitBash terminal: git clone https://github.com/jimmybookkyh-crypto/FE25Projekt.git
 
 2. Install the dependencies:<br>
-Navigate to the root folder in the termnibal and install dependencies by typing: npm install
+Navigate to the root folder in the termninal(for example if starting in the \FE25Projekt then type; cd LiveGameAPP ) and install dependencies by typing: npm install
 
 3. Start up the development server:<br>
 To run the app start devolopment server by typing: npm run dev
