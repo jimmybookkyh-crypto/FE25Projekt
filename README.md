@@ -20,6 +20,33 @@ To run the app start devolopment server by typing: npm run dev
 4. Running the app in browser:<br>
 Access the application by copying the localhost url http://localhost:5173/search into browser or ctrl+click on the address in the terminal.
 
+## Requirements fullfilled
+1. G<br>
+* Create Singel Page Application with a clear theme - [x]<br>
+2. A<br>
+* React SPA with client-side routing (React Router)- [x]
+* At least 3 total routes; Home(with News child route), Latest Live Game, Search Games, About - [x]
+* Navigation set up trough React Router's built in NavLink - [x]
+2. B<br>
+* The app consists of several reusable components such as ContentBox, SearchField and Navigation etc - [x]
+* At least one component receives data via props and displays it, for example used with ContentBox 'title' and 'children' props - [x]
+2. C<br>
+* Usage of useState for interactivity at least once, for example in the SearchGames function with 'searchTerm' useState. - [x]
+2. D<br>
+* The APP is fetching data from an API with a fetch trough useEffect - [x]
+* Displays both a loading state as well as simple error handling  - [x]
+* Retrieved data is used and displayed in the user interface - [x]
+2. E<br>
+* README includes short description of the app - [x]
+* README includes how to start the project - [x]
+* README includes what requirements have been met(checklist in bullet form) - [x]<br>
+3. VG<br>
+ 1. 
+ * Clear and organized file structure - [x]
+ * "Technical choices - reflection" section in the README with at least 150 words - [x]
+ 2. 
+ * An extra route ("About" page) - [x]
+ * Extra UI functionality (pagination used on Home page) - [x]
 
 ## Technical choices - reflection
 
