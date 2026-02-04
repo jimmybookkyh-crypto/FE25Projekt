@@ -49,6 +49,5 @@ I chose my API from https://www.mmobomb.com/api based on several reasons;<br>
 The API fits the theme I wanted to work with, building an application themed around gaming.<br>
 It is accessible and doesn't require any registration or API keys and doesn't have any restrictions on usage.<br>
 The API has several endpoints with different data in them making such as list of games and latestnews that are easy to use for various app functions, for example using an API that regularly fills with new data is more interesting to work with.<br>
-
 It seems to be a maintained API that gets updated thus it feels more reliable to use for a project.<br>
 While the documentation for it is a bit lacking, it is simple set up enough with clearly defined endpoints and logical keys to which makes it easy to use and work with.
