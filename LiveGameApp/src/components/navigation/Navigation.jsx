@@ -7,7 +7,7 @@ function Navigation(){
     return (
      <nav>
       <NavLink to="/" end className={linkClass}>Home</NavLink>
-      <br/>
+            <br/>
       <NavLink to="/live" end className={linkClass}>Latest Live Games</NavLink>
             <br/>
       <NavLink to="/search" end className={linkClass}>Search Games</NavLink>
