@@ -12,7 +12,7 @@ function App() {
   
   return (
     <>
-        <Routes>
+      <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path="/" element={<Home />}>
             <Route index element={<News />} />
